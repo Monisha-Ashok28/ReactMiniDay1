@@ -1,0 +1,15 @@
+.bio-card {
+  width: 300px;
+  padding: 20px;
+  margin: 50px auto;
+  border: 2px solid lightgreen;
+  border-radius: 5px;
+  text-align: center;
+  background-color: #f0fff4;
+  color: #2e7d32;
+}
+
+.bio-text {
+  color: black;
+  font-size: 16px;
+}
