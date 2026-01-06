@@ -1,0 +1,10 @@
+.counter-box {
+  text-align: center;
+  margin: 20px;
+}
+
+.counter-box button {
+  padding: 8px 15px;
+  font-size: 16px;
+  cursor: pointer;
+}

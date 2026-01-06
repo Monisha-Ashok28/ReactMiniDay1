@@ -1,27 +1,52 @@
-import PersonalBio from "./components/ReactMiniDay1/PersonalBio";
-import Greeting from "./components/ReactMiniDay1/Greeting";
-import Counter from "./components/ReactMiniDay1/Counter";
-import Hobbies from "./components/ReactMiniDay1/Hobbies";
+// import PersonalBio from "./components/ReactMiniDay1/PersonalBio";
+// import Greeting from "./components/ReactMiniDay1/Greeting";
+// import Counter from "./components/ReactMiniDay1/Counter";
+// import Hobbies from "./components/ReactMiniDay1/Hobbies";
+
+// function App() {
+// return (
+// <div>
+//     <PersonalBio
+//     name="Monisha"
+//     age={28}
+//     bio="Web Developer"
+//     />
+
+//     <Greeting name="Monisha"
+//     />
+
+//     <Counter />
+
+//     <Hobbies hobbies={["Reading", "Coding", "Music", "Trvelling"]}
+//     />
+
+// </div>
+// );
+// }
+
+// export default App;
+
+
+import "./App.css";
+import WelcomeMessage from "./components/ReactMiniDay2/WelcomeMessage";
+import ClickCounter from "./components/ReactMiniDay2/ClickCounter";
+import ShowHideText from "./components/ReactMiniDay2/ShowHideText";
+import Timer from "./components/ReactMiniDay2/Timer";
 
 function App() {
-return (
-<div>
-    <PersonalBio
-    name="Monisha"
-    age={28}
-    bio="Web Developer"
-    />
-
-    <Greeting name="Monisha"
-    />
-
-    <Counter />
-
-    <Hobbies hobbies={["Reading", "Coding", "Music", "Trvelling"]}
-    />
-
-</div>
-);
+  return (
+    <div>
+      <WelcomeMessage />
+      <ClickCounter />
+      <ShowHideText />
+      <Timer />
+    </div>
+  );
 }
 
 export default App;
+
+
+
+
+
